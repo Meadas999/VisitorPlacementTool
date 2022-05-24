@@ -16,7 +16,7 @@ namespace VisitorPlacementTool
 
         public Stoel(string vaknaam, int rijnummer, int stoelnummer)
         {
-            this.Stoelnaam = $"{vaknaam}{stoelnummer}-{rijnummer}";
+            this.Stoelnaam = $"{vaknaam}{rijnummer}-{stoelnummer}";
             Rijnummer = rijnummer;
             Stoelnummer = stoelnummer;
             IsBezet = false;

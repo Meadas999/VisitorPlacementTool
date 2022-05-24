@@ -99,8 +99,8 @@ namespace VisitorPlacementTool
 
         private int GetNextRijNummer()
         {
-            int rijNummer = Stoelen.Last().Rijnummer;
-            if (rijNummer > Rijen)
+            int stoelnummer = Stoelen.Last().Stoelnummer;
+            if(stoelnummer == Kolommen)
             {
                 return 1;
             }
